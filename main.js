@@ -5,7 +5,7 @@ let moveSpeed = 20; //How fast the bat can move when fast.
 let score = 0;
 let nn;
 const maxCycles = 600; //Num frames before next round is forced started.
-let rounds = 25;
+let rounds = 10;
 let cyclesLeft = maxCycles;
 let stored = []; //As the rounds play out the score and nn are added here.
 let sorted = []; //Then they are sorted by score and palced here.
